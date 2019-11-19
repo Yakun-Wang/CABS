@@ -32,6 +32,9 @@ data from the piecewise and slowly varying AR processes described in the
 paper and apply the CABS procedure to obtain spectral estimates and summary
 plots of the MCMC sampler fit. 
 
+When you want to call the cabs function in "CABS.R" file, you need to source the code
+with command 'source('C:\CABSdemo\CABS.R')'.
+
 Using CABS on other data:
 Two inputs are necessary to run the MCMC sampler for the CABS estimation
 procedure.
