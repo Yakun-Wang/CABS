@@ -116,11 +116,11 @@ ts.plot(x)
 # 2. call CABS function #
 #########################
 source('~/Desktop/R_code/CABS.R')
-cabs(x,u,nloop=5000,seed=6666,nwarmup=2000,nexp_tmax=10,nexp_umax=8,tmin=50,umin=1,nbasis=7,
+result=cabs(x,u,nloop=5000,seed=6666,nwarmup=2000,nexp_tmax=10,nexp_umax=8,tmin=50,umin=1,nbasis=7,
      Rev_Jump_t=1,Rev_Jump_u=1,prob_mm1=0.8,prob_mm1_u=0.8,sigmasqalpha=100,tau_prior_a=-1,
      tau_prior_b=0,var_inflate=1.0,plotting=TRUE)
 
-
+attach(result)
 ## Calculation of spectrum
 spec_est <- array(0, c(51, dim(x)[1], dim(x)[2]))
 
