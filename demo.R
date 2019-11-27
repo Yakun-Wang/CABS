@@ -1,3 +1,12 @@
+
+library(pracma)
+library(trust)
+library(mvtnorm)
+library(MASS)
+library(NPflow)
+library(plotly)
+
+
 #########################
 #   1. simulate data    #
 #########################
