@@ -31,12 +31,6 @@
 # var_inflate: inflation factor for variance of beta distribution
 
 
-library(pracma)
-library(trust)
-library(mvtnorm)
-library(MASS)
-library(NPflow)
-library(plotly)
 
 cabs <-
   function(x,
